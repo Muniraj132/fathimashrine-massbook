@@ -70,29 +70,29 @@ export default function EventModal() {
       };
       console.log(masslist);
 
-      axios
-        .post(`${API}/massbook/create-mass-booking`, masslist)
-        .then((res) => {
-          if (res.data.status === 200) {
-            swal({
-              title: "Your record is Saved Successfully!",
-              text: "St.Antony's Firary Church, Madiwala",
-              icon: "success",
-              confirmButtonColor: "rgb(24, 57, 60)",
-              button: "OK",
-            });
-          }
-        })
-        .catch((res) => {
-          swal({
-            res: "res",
-            title: "Try again! Somthing went worng!",
-            text: "St.Antony's Firary Church, Madiwala",
-            icon: "error",
-            buttonColor: "#DD6B55",
-            button: "OK",
-          });
-        });
+      // axios
+      //   .post(`${API}/massbook/create-mass-booking`, masslist)
+      //   .then((res) => {
+      //     if (res.data.status === 200) {
+      //       swal({
+      //         title: "Your record is Saved Successfully!",
+      //         text: "St.Antony's Firary Church, Madiwala",
+      //         icon: "success",
+      //         confirmButtonColor: "rgb(24, 57, 60)",
+      //         button: "OK",
+      //       });
+      //     }
+      //   })
+      //   .catch((res) => {
+      //     swal({
+      //       res: "res",
+      //       title: "Try again! Somthing went worng!",
+      //       text: "St.Antony's Firary Church, Madiwala",
+      //       icon: "error",
+      //       buttonColor: "#DD6B55",
+      //       button: "OK",
+      //     });
+      //   });
 
       console.log(selectedEvent);
       const calendarEvent = {

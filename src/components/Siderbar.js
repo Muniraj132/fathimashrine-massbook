@@ -47,7 +47,7 @@ export default function Siderbar() {
         }
       })
       .catch((err) => {
-        alert("Something went wrong, please try again");
+        // alert("Something went wrong, please try again");
       });
 
     // const datatest = { params: { args: filteredEvents } }
