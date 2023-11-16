@@ -2,7 +2,7 @@ import axios from "axios";
 //import dayjs from "dayjs";
 import React, { useContext, useState, useEffect, useRef } from "react";
 import GlobalContext from "../context/GlobalContext";
-import swal from "sweetalert";
+
 //import Siderbar from "./Siderbar";
 import SimpleReactValidator from "simple-react-validator";
 import API from "../api";
